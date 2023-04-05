@@ -18,7 +18,10 @@ if (isset($_POST['done'])){
   //email massage body
 
   $htmlContent='<h2> Email Request Received </h2>
-  <p> <b>Clint Name:</b> '.$name .' </p>';
+  <p> <b>Clint Name:</b> '.$name .' </p>
+  <p> <b>Class:</b> '.$class .' </p>
+  <p> <b>Email:</b> '.$email .' </p>
+  ';
 
   //header for sendewr info
    $headers = "From:" .$name . "<" .$email. ">";
